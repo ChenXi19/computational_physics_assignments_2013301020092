@@ -1,6 +1,7 @@
 # Welcome to My Assignments Page
 ===========
->student number: 2013301020092<br>
+>student name: Chen Xi   
+student number: 2013301020092<br>
 
 
 >Since it is the first time that I get in touch with computer in a real sense, I imagine it is going to be really hard.
