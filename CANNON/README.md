@@ -14,3 +14,11 @@ A correction to the drag force is made in this section using different approache
 
 
 ## Introduction 
+* Eular method:
+* Drag Force of air：<br>
+The physisc of air resistance is a very complicated problem. In general, this force can be wirten as<br>
+At extremly low velocities the first term dominates, and its coefficient B1 can be calculated for objects with symple shapes. This is known as Stokes' law and is considered in most elementary texts. However, at any reasonable velocity the v2 term dominates for most objects. Moreover, B2 cannot be calculated exactly for objects even as symple as baseball. We can, however, approximately estimate B2 as follows. As an object moves through the atmosphere, it must push the air in front of it out of the way. The mass of air moved in time dt in mair     ,where    is the density of air and A the frontal area of the object. This air is then given a velocity of order v, and hence its kinetic energy is       . This is also the work done by the drag force (the force on the object due to air resistance) in time dt, so         . Putting this all together, we get<br>
+* Anthor factor influencing air resistance in this problem is the variation of air density. During this process, the shell travels to a very high altitude, where the air density will be lower than sea level. As is discussed above, the air resistance is proportional to the density of the air, so the drag force at high altitude will be less than that at sea level.
+  * Isothermal
+  * Adiabatic
+
