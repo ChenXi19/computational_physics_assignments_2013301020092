@@ -52,7 +52,17 @@ The landing point of the shell is determined by interpolating between the last p
   As can be seen in the above picture; the air resistance reduces the firing range sharply and also the maximum angle is no longer 45 degree.
 
 
+* Comparison between different corrections<br> Different corrections were made to esitimate the air resistence. And three approaches are made, incuding (1) a uniform air model; (2) an isothemal air model; (3) an adiabatic air model. And the plots under different cases are showed below.<br>
 
+
+  ![For subroytine please click here](https://github.com/ChenXi19/computational_physics_assignments_2013301020092/blob/master/CANNON/comparison%20between%20the%20four%20conditions.py)
+  ![](https://raw.githubusercontent.com/ChenXi19/computational_physics_assignments_2013301020092/master/CANNON/compare700_45.png)<br> Figure_2: Trajectory of a cannon shell with (red and blue lines) or without (black line) the effect of the lower air density at high altitude taken into account. The blue and red lines represent different corrections. In all cases the air resistance was inclued with ![](http://latex.codecogs.com/gif.latex?B_2/m%3D4%5Ctimes%2010%5E%7B-5%7Dm%5E%7B-1%7D) and the initial speed and the firing angle are indicated in the figure. Note that the x and y scales are different.
+  
+  
+  As cab be seen above, the firing range is greater when the variation of density is taken into account. This is reasonable because the shell experiences less air resistance at a higher altitude due to a lower density. Hence it makes sense that the difference between the three models should decrease with altitude. To prove this, I did another run, which shows as below; <br>
+  
+  
+  ![](https://raw.githubusercontent.com/ChenXi19/computational_physics_assignments_2013301020092/master/CANNON/compare%20dif_ang.png)<br> Figure_3: In this figure the black line represents the case where the air is considered uniform while the red line the the adiabatic model and the blue line the isothermal model. Different firing angles are indicated above each set of lines. And the initial speed is 500m/s. 
 
 
 
