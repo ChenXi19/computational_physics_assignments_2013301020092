@@ -72,7 +72,10 @@ The landing point of the shell is determined by interpolating between the last p
   
   
   ![For subroutine please click here.](https://github.com/ChenXi19/computational_physics_assignments_2013301020092/blob/master/CANNON/max%20angle.py)
-  ![](https://raw.githubusercontent.com/ChenXi19/computational_physics_assignments_2013301020092/master/CANNON/lala.gif)<br> Figure_4: This plot shows how the trajectiry varies with angle and when it reaches it max firing range at a given initial speed. The inintial speed is 700m/s. 
+  ![](https://raw.githubusercontent.com/ChenXi19/computational_physics_assignments_2013301020092/master/CANNON/lala.gif)<br> Figure_4: This movie shows how the trajectiry varies with angle and when it reaches it max firing range at a given initial speed. The inintial speed is 700m/s. 
+
+
+  In this movie, the max firing angle is 43.8 degrees, which is as expacted less than 45 degrees, the max angle without air resistance.
 
 
 
