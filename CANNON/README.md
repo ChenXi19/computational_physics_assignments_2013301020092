@@ -43,7 +43,10 @@ The landing point of the shell is determined by interpolating between the last p
 
 
 ## Results and discussions
-* The influence brought about by air resistance<br> The air resistance is consider under the assumption that the air is uniform and the density doesn't vary with altitude. And the plots is as below.<br> ![](https://raw.githubusercontent.com/ChenXi19/computational_physics_assignments_2013301020092/master/CANNON/level_0%20700_1.png)<br> Figure_1: Left: trajectory of the cannon shell without air resistance. We assumed an initial speed of 700m/s and the firing angles are indicated. Right: trajectory of the same cannon shell, but  now with air resistance, with ![](http://latex.codecogs.com/gif.latex?B_2/m%3D4%5Ctimes%2010%5E%7B-5%7Dm%5E%7B-1%7D). <br>
+* The influence brought about by air resistance<br> The air resistance is consider under the assumption that the air is uniform and the density doesn't vary with altitude. And the plots is as below.<br>
+
+
+  ![](https://raw.githubusercontent.com/ChenXi19/computational_physics_assignments_2013301020092/master/CANNON/level_0%20700_1.png)<br> Figure_1: Left: trajectory of the cannon shell without air resistance. We assumed an initial speed of 700m/s and the firing angles are indicated. Right: trajectory of the same cannon shell, but  now with air resistance, with ![](http://latex.codecogs.com/gif.latex?B_2/m%3D4%5Ctimes%2010%5E%7B-5%7Dm%5E%7B-1%7D). <br>
 
 
   As can be seen in the above picture; the air resistance reduces the firing range sharply and also the maximum angle is no longer 45 degree.
