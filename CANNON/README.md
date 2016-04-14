@@ -63,9 +63,16 @@ The landing point of the shell is determined by interpolating between the last p
   
   
   ![](https://raw.githubusercontent.com/ChenXi19/computational_physics_assignments_2013301020092/master/CANNON/compare%20dif_ang.png)<br> Figure_3: In this figure the black line represents the case where the air is considered uniform while the red line the the adiabatic model and the blue line the isothermal model. Different firing angles are indicated above each set of lines. And the initial speed is 500m/s. 
+  
+  
+  As is shown, the difference decrease with the firing angle, which is expacted. Yet this is only true when the angle is less than the maximum angle, at which the firing range reaches the maximum. When it is above the maximum angle, the case can be quite messy.
 
 
-
+* Max firing angle and max firing range<br> From figure it is easy to see that the plots will be shifted a little bit backward when air resistance is considered. Hence it is reasonable that the max angle will be slightly less than 45 degree when air resistance comes into play. To biefly demonstrate how this work, we will only discuss the adiabatic model in this section.<br>
+  
+  
+  ![For subroutine please click here.](https://github.com/ChenXi19/computational_physics_assignments_2013301020092/blob/master/CANNON/max%20angle.py)
+  ![](https://raw.githubusercontent.com/ChenXi19/computational_physics_assignments_2013301020092/master/CANNON/lala.gif)<br> Figure_4: This plot shows how the trajectiry varies with angle and when it reaches it max firing range at a given initial speed. The inintial speed is 700m/s. 
 
 
 
