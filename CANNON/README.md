@@ -83,8 +83,8 @@ The landing point of the shell is determined by interpolating between the last p
   
   
 ## Reference and acknowledgement
-[1] ![Euler method-Wikipadia](https://en.wikipedia.org/wiki/Euler_method)
-[2] Computational physiss, second edition, Nicholas J. Giordano
+[1] ![Euler method-Wikipadia](https://en.wikipedia.org/wiki/Euler_method)<br>
+[2] Computational physiss, second edition, Nicholas J. Giordano<br>
 [3] ![Homework_6 of Yue Shaosheng](https://github.com/SmallGuoguo/computationalphysics_N2013301020033)
 
 
