@@ -36,4 +36,33 @@ The Euler method is used to solve the equation of motion of the cannon shell, wh
 * when air resistance is considered and the air is considered adiabatic, then <br>![](http://latex.codecogs.com/gif.latex?F_x%3D-%281-%5Cfrac%7Bay%7D%7BT_0%7D%29%5E%7B%5Calpha%20%7DF_%7Bdrag%7D%28y%3D0%29vv_x%2CF_y%3D-g-%281-%5Cfrac%7Bay%7D%7BT_0%7D%29%5E%7B%5Calpha%20%7DF_%7Bdrag%7D%28y%3D0%29vv_y)<br>
 
 
-In order to apply Euler method, we need to rewrite the equations as follow<br> ![](http://latex.codecogs.com/gif.latex?%5Cleft%5C%7B%5Cbegin%7Bmatrix%7D%20%5Cfrac%7Bdx%7D%7Bdt%7D%3Dv_x%5C%5C%20%5Cfrac%7Bdv_x%7D%7Bdt%7D%3DF_x%5C%5C%20%5Cfrac%7Bdy%7D%7Bdt%7D%3Dv_y%5C%5C%20%5Cfrac%7Bdv_y%7D%7Bdt%7D%3DF_y%20%5Cend%7Bmatrix%7D%5Cright.)<br> The landing point of the shell is determined by interpolating between the last point above the gound(n) and the point that would have been below the grounf (n+1). If we let ![](http://latex.codecogs.com/gif.latex?r%3D-y_n/y_%7Bn&plus;1%7D) then a linear interpolation gives <br> ![](http://latex.codecogs.com/gif.latex?x_l%3D%5Cfrac%7Bx_n&plus;rx_%7Bn&plus;1%7D%7D%7Br&plus;1%7D%2Cy_l%3D0)
+In order to apply Euler method, we need to rewrite the equations as follow<br> ![](http://latex.codecogs.com/gif.latex?%5Cleft%5C%7B%5Cbegin%7Bmatrix%7D%20%5Cfrac%7Bdx%7D%7Bdt%7D%3Dv_x%5C%5C%20%5Cfrac%7Bdv_x%7D%7Bdt%7D%3DF_x%5C%5C%20%5Cfrac%7Bdy%7D%7Bdt%7D%3Dv_y%5C%5C%20%5Cfrac%7Bdv_y%7D%7Bdt%7D%3DF_y%20%5Cend%7Bmatrix%7D%5Cright.)<br> 
+
+
+The landing point of the shell is determined by interpolating between the last point above the gound(n) and the point that would have been below the grounf (n+1). If we let ![](http://latex.codecogs.com/gif.latex?r%3D-y_n/y_%7Bn&plus;1%7D) then a linear interpolation gives <br> ![](http://latex.codecogs.com/gif.latex?x_l%3D%5Cfrac%7Bx_n&plus;rx_%7Bn&plus;1%7D%7D%7Br&plus;1%7D%2Cy_l%3D0)
+
+
+## Results and discussions
+* The influence brought about by air resistance<br> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
