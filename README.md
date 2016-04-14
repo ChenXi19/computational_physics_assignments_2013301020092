@@ -16,4 +16,4 @@ more interesting than I thought.
 ## [Assignment_3](https://github.com/ChenXi19/assignment2/blob/master/README.md)
 ## [Assignment_4 and Assignment_5](https://github.com/ChenXi19/Assignment3)
 Since both assignment_4 and assignment_5 require to practice Python using problems in Chapter one, I used two problems as examples to discuss factors, contributing errors in Euler method. 
-
+## [Assignment_6](https://github.com/ChenXi19/computational_physics_assignments_2013301020092/blob/master/CANNON/README.md)
