@@ -16,4 +16,8 @@ At extremly low velocities the first term dominates, and its coefficient B1 can 
   The drag force has the form ![](http://latex.codecogs.com/gif.latex?F_%7Bdrag%7D%5Csim%20v%5E2), where v is the speed of the object relative to the air. For a ball spinning about the axis perpendicular to the direction of travel, this speed will be different on opposite edges of the ball, as illustrated below.<br>
   ![]()<br>
   Because of the spin, the edge of the ball at the bottom in Figure_1 will have a larger velocity relative to the air than will the edge of the ball at the top of the figure. This will result in a larger drag force edge of the ball where the velocity is highest than on the opposite edge. When the forces on the two sides of the ball are added together, there will be a net force in the -z direction. This is known as Magnus force.<br>
-  To understand how the Magnus force depends on the angular velocity of the ball, we first note that the upward 
+  To understand how the Magnus force depends on the angular velocity of the ball, we first note that the upward component of the drag force on the lower half of the ball will be propotional to the square of the velocity of the surface of the ball relative to the air, i.e., ![](http://latex.codecogs.com/gif.latex?F%5Csim%20%28v&plus;r%5Comega%20%29%5E2). Similarly the downward component will be proportional to the square of the relative velocity ![](http://latex.codecogs.com/gif.latex?%28v-r%5Comega%20%29%5E2). The Magnus force is equal to the difference between these two terms<br>
+  ![](http://latex.codecogs.com/gif.latex?F_%7Bdrag%7D%5Csim%28v&plus;r%5Comega%20%29%5E2-%28v-r%5Comega%20%29%5E2%5Csim%20vr%5Comega)<br>
+  Thus the net spin-dependent force have the general form<br>
+  ![](http://latex.codecogs.com/gif.latex?F_M%3DS_0%20v%5Comega)<br>
+  For simplicity we assume the coefficient ![](http://latex.codecogs.com/gif.latex?S_0) is a constant.
