@@ -43,5 +43,5 @@ Figure_2 The blue line represents the motion without backspin while the red repr
 As is shown above, the ball with backspin reaches higher and has longer range. This is reasonable because the Magnus force is pointed upward, offsetting the gravity. Also the shapes of the two course are of similarity. However when we take the roughness and smothness of the ball into account, the course will be more irregular and unpredicable.
 
 ## Reference
-[1] Computational physiss, second edition, Nicholas J. Giordano
+[1] Computational physiss, second edition, Nicholas J. Giordano<br>
 [2] The source code is from ![exercise_7 of Wang Shixing](https://github.com/ShixingWang/computationalphysics_N2013301020050/blob/master/Reports/Exercise7.md)
