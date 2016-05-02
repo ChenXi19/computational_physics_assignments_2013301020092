@@ -16,7 +16,7 @@ Key words: Backspin, Air resistance, Magnus effect
 
 * The Magnus froce<br>
   The drag force has the form ![](http://latex.codecogs.com/gif.latex?F_%7Bdrag%7D%5Csim%20v%5E2), where v is the speed of the object relative to the air. For a ball spinning about the axis perpendicular to the direction of travel, this speed will be different on opposite edges of the ball, as illustrated below.<br>
-  ![]()<br>
+  ![](https://raw.githubusercontent.com/ChenXi19/computational_physics_assignments_2013301020092/master/Assignment_7/IMG_1512.JPG)<br>
 
   Because of the spin ( the spin vector is perpendicular to the plane of gravity and the velocity vector), the edge of the ball at the bottom in Figure_1 will have a larger velocity relative to the air than will the edge of the ball at the top of the figure. This will result in a larger drag force edge of the ball where the velocity is highest than on the opposite edge. When the forces on the two sides of the ball are added together, there will be a net force in the y direction. This is known as Magnus force.<br>
   To understand how the Magnus force depends on the angular velocity of the ball, we first note that the upward component of the drag force on the lower half of the ball will be propotional to the square of the velocity of the surface of the ball relative to the air, i.e., ![](http://latex.codecogs.com/gif.latex?F%5Csim%20%28v&plus;r%5Comega%20%29%5E2). Similarly the downward component will be proportional to the square of the relative velocity ![](http://latex.codecogs.com/gif.latex?%28v-r%5Comega%20%29%5E2). The Magnus force is equal to the difference between these two terms<br>
@@ -36,9 +36,9 @@ Key words: Backspin, Air resistance, Magnus effect
 
 
 ## Results and discussions
-![Source code]()
+![Source code](https://github.com/ChenXi19/computational_physics_assignments_2013301020092/blob/master/Assignment_7/untitled0.py)
 In this code we use Eulur method to solve the equations of motion under the initial conditions-a velocity of 50 m/s and a shotting angle of 45 degree. A conperison between the motion with and without backspin.<br>
-![]()<br>
+![](https://raw.githubusercontent.com/ChenXi19/computational_physics_assignments_2013301020092/master/Assignment_7/2.png)<br>
 Figure_2 The blue line represents the motion without backspin while the red represents the motion with backspin. <br>
 As is shown above, the ball with backspin reaches higher and has longer range. This is reasonable because the Magnus force is pointed upward, offsetting the gravity. Also the shapes of the two course are of similarity. However when we take the roughness and smothness of the ball into account, the course will be more irregular and unpredicable.
 
