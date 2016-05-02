@@ -9,9 +9,9 @@ Key words: Backspin, Air resistance, Magnus effect
 
 ## Introduction
 * Drag force of air<br>
-The physisc of air resistance is a very complicated problem. In general, this force can be wirten as<br>![](http://latex.codecogs.com/gif.latex?F_%7Bdrag%7D%3D-B_1v-B_2v%5E2)<br>
+  The physisc of air resistance is a very complicated problem. In general, this force can be wirten as<br>![](http://latex.codecogs.com/gif.latex?F_%7Bdrag%7D%3D-B_1v-B_2v%5E2)<br>
 
-At extremly low velocities the first term dominates, and its coefficient B1 can be calculated for objects with symple shapes. This is known as Stokes' law and is considered in most elementary texts. However, at any reasonable velocity the second term dominates for most objects. Moreover, B2 cannot be calculated exactly for objects even as symple as baseball. We can, however, approximately estimate B2 as follows. As an object moves through the atmosphere, it must push the air in front of it out of the way. The mass of air moved in time dt in ![](http://latex.codecogs.com/gif.latex?m_%7Bair%7D%5Csim%20%5Crho%20Avdt),where ![](http://latex.codecogs.com/gif.latex?%5Crho) is the density of air and A the frontal area of the object. This air is then given a velocity of order v, and hence its kinetic energy is ![](http://latex.codecogs.com/gif.latex?E_%7Bair%7D%5Csim%20m_%7Bair%7Dv%5E2/2). This is also the work done by the drag force (the force on the object due to air resistance) in time dt, so ![](http://latex.codecogs.com/gif.latex?F_%7Bdrag%7Dvdt%3DE_%7Bair%7D). Putting this all together, we get<br> ![](http://latex.codecogs.com/gif.latex?F_%7Bdrag%7D%3D-%5Cfrac%7B1%7D%7B2%7DC%5Crho%20Av%5E2)
+  At extremly low velocities the first term dominates, and its coefficient B1 can be calculated for objects with symple shapes. This is known as Stokes' law and is considered in most elementary texts. However, at any reasonable velocity the second term dominates for most objects. Moreover, B2 cannot be calculated exactly for objects even as symple as baseball. We can, however, approximately estimate B2 as follows. As an object moves through the atmosphere, it must push the air in front of it out of the way. The mass of air moved in time dt in ![](http://latex.codecogs.com/gif.latex?m_%7Bair%7D%5Csim%20%5Crho%20Avdt),where ![](http://latex.codecogs.com/gif.latex?%5Crho) is the density of air and A the frontal area of the object. This air is then given a velocity of order v, and hence its kinetic energy is ![](http://latex.codecogs.com/gif.latex?E_%7Bair%7D%5Csim%20m_%7Bair%7Dv%5E2/2). This is also the work done by the drag force (the force on the object due to air resistance) in time dt, so ![](http://latex.codecogs.com/gif.latex?F_%7Bdrag%7Dvdt%3DE_%7Bair%7D). Putting this all together, we get<br> ![](http://latex.codecogs.com/gif.latex?F_%7Bdrag%7D%3D-%5Cfrac%7B1%7D%7B2%7DC%5Crho%20Av%5E2)
 
 
 * The Magnus froce<br>
@@ -33,3 +33,15 @@ At extremly low velocities the first term dominates, and its coefficient B1 can 
   To calculate the trajetory of the ball, we need to consider motion in two dimensions. We let x be the axis running from the home plate to the picher and y be the height above the ground, as in Figure_1. The equation of motion for the ball are then<br>
   ![](http://latex.codecogs.com/gif.latex?%5Cleft%5C%7B%5Cbegin%7Bmatrix%7D%20%5Cfrac%7B%5Cmathrm%7Bd%7D%20x%7D%7B%5Cmathrm%7Bd%7D%20t%7D%3Dv_x%5C%5C%20%5Cfrac%7B%5Cmathrm%7Bd%7Dv_%20x%7D%7B%5Cmathrm%7Bd%7D%20t%7D%3D-%5Cfrac%7BB_2%7D%7Bm%7Dvv_x%5C%5C%20%5Cfrac%7B%5Cmathrm%7Bd%7D%20y%7D%7B%5Cmathrm%7Bd%7D%20t%7D%3Dv_y%5C%5C%20%5Cfrac%7B%5Cmathrm%7Bd%7Dv_%20x%7D%7B%5Cmathrm%7Bd%7D%20t%7D%3D-g&plus;%5Cfrac%7BS_0v_x%5Comega%20%7D%7Bm%7D%20%5Cend%7Bmatrix%7D%5Cright.)<br>
   Here we assume the rotation axis is perpendicular to the plane of axis x and axis y, so that the Magnus force is along the y axis. Also we assume the aguler velocity ![](http://latex.codecogs.com/gif.latex?%5Comega) is a constant; that is the ball's rotation rate does not change signicantly during the course of the pitch.
+
+
+## Results and discussions
+![Source code]()
+In this code we use Eulur method to solve the equations of motion under the initial conditions-a velocity of 50 m/s and a shotting angle of 45 degree. A conperison between the motion with and without backspin.<br>
+![]()<br>
+Figure_2 The blue line represents the motion without backspin while the red represents the motion with backspin. <br>
+As is shown above, the ball with backspin reaches higher and has longer range. This is reasonable because the Magnus force is pointed upward, offsetting the gravity. Also the shapes of the two course are of similarity. However when we take the roughness and smothness of the ball into account, the course will be more irregular and unpredicable.
+
+## Reference
+[1] Computational physiss, second edition, Nicholas J. Giordano
+[2] The source code is from ![exercise_7 of Wang Shixing](https://github.com/ShixingWang/computationalphysics_N2013301020050/blob/master/Reports/Exercise7.md)
