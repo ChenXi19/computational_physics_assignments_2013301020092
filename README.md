@@ -19,3 +19,5 @@ Since both assignment_4 and assignment_5 require to practice Python using proble
 ## [Assignment_6](https://github.com/ChenXi19/computational_physics_assignments_2013301020092/blob/master/CANNON/README.md)
 ## [Assignment_7](https://github.com/ChenXi19/computational_physics_assignments_2013301020092/blob/master/Assignment_7/README.md)
 EXERCISE2.19. Model the effect of backspin on the range of a batted ball. Assume an angular velocity of 2000 rpm.
+## [Assignment_8](https://github.com/ChenXi19/computational_physics_assignments_2013301020092/blob/master/Assignment_8/README.md)
+EXERCISE3.7 and EXERCISE3.8 are discussed in this assignment.
