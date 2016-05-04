@@ -19,4 +19,4 @@ where l is the length of the string and g is the gravity. If we assume that ![](
 ![](http://latex.codecogs.com/gif.latex?%5Cfrac%7Bd%5E2%5Ctheta%7D%7Bdt%5E2%7D%20%3D-%5Cfrac%7Bg%7D%7Bl%7D%5Ctheta)<br>
 which gives the general solution<br>
 ![](http://latex.codecogs.com/gif.latex?%5Ctheta%3D%5Ctheta_0sin%28%5COmega%20t&plus;%5Cvarphi%20%29)<br>
-where ![](http://latex.codecogs.com/gif.latex?%5COmega%3D%5Csqrt%7Bg/l%7D),and ![](http://latex.codecogs.com/gif.latex?%5Ctheta_0%2C%5Cvarphi) depend on the initial conditions- the initial speed and displacement of the pendulum. The angular frequency ![](http://latex.codecogs.com/gif.latex?%5Ctheta_0%2C%5Cvarphi)
+where ![](http://latex.codecogs.com/gif.latex?%5COmega%3D%5Csqrt%7Bg/l%7D),and ![](http://latex.codecogs.com/gif.latex?%5Ctheta_0%2C%5Cvarphi) depend on the initial conditions- the initial speed and displacement of the pendulum. The angular frequency ![](http://latex.codecogs.com/gif.latex?%5COmega%3D%5Csqrt%7Bg/l%7D)
