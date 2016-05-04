@@ -7,6 +7,6 @@ In this assignment we discuss two problems: One is the motion of the linear forc
 
 
 ## Introduction
-* Simple pendulum
+* Simple pendulum<br>
   A simple pendulum is a particle of mass m connected by a massless string to a rigid support. As in figure_1, there are only two forces acting on the partcle, gravity and the tension of the string. It is convinient to consider the components of these forces parallel and perpendicular to the string. The parrallel forces add to zero while the forces perpendicular to the string is given by:<br>
 ![]()
