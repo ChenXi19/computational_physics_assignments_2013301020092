@@ -69,8 +69,21 @@ Solving the equation, we get several interesting results concerning the motion o
 ![](https://raw.githubusercontent.com/ChenXi19/computational_physics_assignments_2013301020092/master/Assignment_8/OMEGA_D.png) <br>
 Figure_3 ![](http://latex.codecogs.com/gif.latex?%5Ctheta) as a function of time for a driven pendulum, where F=1 and q=0.5<br>
 As is shown in Figure_3, the amplitude reaches the maxium only when the the angular frequency of the driven force matches the angular frequency of the pendulum, that is ![](http://latex.codecogs.com/gif.latex?%5COmega_D%3D%5COmega). A larger or smaller anguler frequency (![](http://latex.codecogs.com/gif.latex?%5COmega_D%3D1%20or%2010)) will both reduce the amplitude. Too high an angular frequency of the driven force will result in an amplitude too small to be noticed. Such a case is shown in Figure_4.<br>
+(![For the source code please click here.](https://github.com/ChenXi19/computational_physics_assignments_2013301020092/blob/master/Assignment_8/untitled1.py))
 ![](https://raw.githubusercontent.com/ChenXi19/computational_physics_assignments_2013301020092/master/Assignment_8/1000.png) <br>
 Figure_4 ![](http://latex.codecogs.com/gif.latex?%5Ctheta) as a function of time for a driven pendulum with the angular frequency of the driven force being 1000.
+
+* The resonant amplitude is also dependent of the friction parameter q: The larger the friction parameter the smaller the amplitude. This result is shown in Figure_5. <br>
+(![For the source code please click here. ](https://github.com/ChenXi19/computational_physics_assignments_2013301020092/blob/master/Assignment_8/OMEGA_D.py))<br>
+![](https://raw.githubusercontent.com/ChenXi19/computational_physics_assignments_2013301020092/master/Assignment_8/q%20dependence.png)<br>
+Figure_5 ![](http://latex.codecogs.com/gif.latex?%5Ctheta) as a function of time for a driven pendulum where the angular frequency of the driven force is ![](http://latex.codecogs.com/gif.latex?%5COmega_D%3D%5COmega%3D3.13) and the friction parameter q=0.5,5,50.<br>
+When the friction is large enough, the pendulum will oscillate but the amplitude will also reduce with time, such case is shown in Figure_6. <br>
+(![For the source code please click here.](https://github.com/ChenXi19/computational_physics_assignments_2013301020092/blob/master/Assignment_8/untitled1.py))<br>
+![](https://raw.githubusercontent.com/ChenXi19/computational_physics_assignments_2013301020092/master/Assignment_8/q100.png)<br>
+Figure_6 ![](http://latex.codecogs.com/gif.latex?%5Ctheta) as a function of time for a driven pendulum with the friction parameter q=100.
+
+### Nonlinearity of the pendulum
+
 
 ## Reference
 [1] The figure is from ![Wiki Pendulum](https://simple.wikipedia.org/wiki/Pendulum)
