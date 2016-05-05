@@ -93,6 +93,19 @@ Figure_6 ![](http://latex.codecogs.com/gif.latex?%5Ctheta) as a function of time
 
 
 ### Nonlinearity of the pendulum
+When nonlinearity is concerned, the equation of motion becomes: <br>
+![](http://latex.codecogs.com/gif.latex?%5Cfrac%7Bd%5E2%5Ctheta%7D%7Bdt%5E2%7D%20%3D-%5Cfrac%7Bg%7D%7Bl%7Dsin%5Ctheta)<br>
+In this case the period will be dependent of the amplitude or the initial speed and displacement. To show this relationship, we keep the initial speed at zero and apply different initial displacment to change the amplitude. And the results are as below: <br>
+
+(![For source code please click here.](https://github.com/ChenXi19/computational_physics_assignments_2013301020092/blob/master/Assignment_8/untitled4.py))
+![](https://raw.githubusercontent.com/ChenXi19/computational_physics_assignments_2013301020092/master/Assignment_8/9pi10.png)<br>
+Figure_7 ![](http://latex.codecogs.com/gif.latex?%5Ctheta) as a function of time for a nonlinear pendulum with the initial angular displacement of ![](http://latex.codecogs.com/gif.latex?%5Cfrac%7B9%5Cpi%7D%7B10%7D)
+
+![](https://raw.githubusercontent.com/ChenXi19/computational_physics_assignments_2013301020092/master/Assignment_8/pi2.png)<br>
+Figure_8 ![](http://latex.codecogs.com/gif.latex?%5Ctheta) as a function of time for a nonlinear pendulum with the initial angular displacement of ![](http://latex.codecogs.com/gif.latex?%5Cfrac%7B%5Cpi%7D%7B2%7D)
+
+![](https://github.com/ChenXi19/computational_physics_assignments_2013301020092/blob/master/Assignment_8/pi60.png)<br>
+Figure_8 ![](http://latex.codecogs.com/gif.latex?%5Ctheta) as a function of time for a nonlinear pendulum with the initial angular displacement of ![](http://latex.codecogs.com/gif.latex?%5Cfrac%7B%5Cpi%7D%7B60%7D)
 
 
 ## Reference
