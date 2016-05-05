@@ -109,8 +109,8 @@ Figure_9 ![](http://latex.codecogs.com/gif.latex?%5Ctheta) as a function of time
 
 
 ## Reference
-[1] The figure is from ![Wiki Pendulum](https://simple.wikipedia.org/wiki/Pendulum)
-[2] Computational physiss, second edition, Nicholas J. Giordano
+[1] The figure is from ![Wiki Pendulum](https://simple.wikipedia.org/wiki/Pendulum)<br>
+[2] Computational physiss, second edition, Nicholas J. Giordano<br>
 [3] The source code is from my classmate ![Wu Yuqiao](https://github.com/wuyuqiao/computationalphysics_N2013301020142/blob/master/chapter3/pendulum.md)<br>
 
 
