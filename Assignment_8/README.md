@@ -56,7 +56,9 @@ In this way the numerical results is shown below<br>
 ![](https://raw.githubusercontent.com/ChenXi19/computational_physics_assignments_2013301020092/master/Assignment_8/damped.png) <br>
 Figure_2 ![](http://latex.codecogs.com/gif.latex?%5Ctheta) as a function of time for a damped pendulum for several different value of the damping, q, calculated by the Euler-Cromer method. Here we have taken g=9.8 and l=1.0.<br>
 
+
 Above shows how damping influence the oscillatory behavior: there are three different kinds of behavior under different damping- underdamped, overdamped and critically damped. The blue line represents the underdamped behavior, where the friction is small and the pendulum stops over a period of oscillation. The overdamped behavior is represented by the red line where the fricion is large and the pendulum also comes to the stable state slowly due to the small velocity caused by the large damping. And the green line represents the critical damped behavior because the pendulum comes to the stable state in the shortest time.<br>
+
 
 ### The motion of linear forced pendulum with friction
 The equation of motion for the linear forced pendulum with friction is:<br>
@@ -64,23 +66,31 @@ The equation of motion for the linear forced pendulum with friction is:<br>
 The the calculative subroutine with the Euler-Cromer method is:<br>
 ![](http://latex.codecogs.com/gif.latex?%5Cbegin%7Bmatrix%7D%20%5Comega_%7Bi&plus;1%7D%3D%5Comega_%7Bi%7D&plus;%28-%5Cfrac%7Bg%7D%7Bl%7D%5Ctheta_i-q%5Cfrac%7Bd%5Ctheta%7D%7Bdt%7D&plus;F_Dsin%28%5COmega_Dt%29%29%5CDelta%20t%5C%5C%20%5Ctheta_%7Bi&plus;1%7D%3D%5Ctheta_i&plus;%5Comega_%7Bi&plus;1%7D%5CDelta%20t%5C%5C%20t_%7Bi&plus;1%7D%3Dt_i&plus;%5CDelta%20t%20%5Cend%7Bmatrix%7D) <br>
 Solving the equation, we get several interesting results concerning the motion of the pendulum:
+
 * There exists resonance, where the amplitude of the pendulum depends on the angular frequancy of the driven force. The resonance happens when the angular frequency of the driven force matches the angular frequency of the pendulum, that is ![](http://latex.codecogs.com/gif.latex?%5COmega_D%3D%5COmega). And the numerical results are shown below:<br>
+
 (![For the source code please click here. ](https://github.com/ChenXi19/computational_physics_assignments_2013301020092/blob/master/Assignment_8/OMEGA_D.py))<br>
 ![](https://raw.githubusercontent.com/ChenXi19/computational_physics_assignments_2013301020092/master/Assignment_8/OMEGA_D.png) <br>
 Figure_3 ![](http://latex.codecogs.com/gif.latex?%5Ctheta) as a function of time for a driven pendulum, where F=1 and q=0.5<br>
+
 As is shown in Figure_3, the amplitude reaches the maxium only when the the angular frequency of the driven force matches the angular frequency of the pendulum, that is ![](http://latex.codecogs.com/gif.latex?%5COmega_D%3D%5COmega). A larger or smaller anguler frequency (![](http://latex.codecogs.com/gif.latex?%5COmega_D%3D1%20or%2010)) will both reduce the amplitude. Too high an angular frequency of the driven force will result in an amplitude too small to be noticed. Such a case is shown in Figure_4.<br>
+
 (![For the source code please click here.](https://github.com/ChenXi19/computational_physics_assignments_2013301020092/blob/master/Assignment_8/untitled1.py))
 ![](https://raw.githubusercontent.com/ChenXi19/computational_physics_assignments_2013301020092/master/Assignment_8/1000.png) <br>
 Figure_4 ![](http://latex.codecogs.com/gif.latex?%5Ctheta) as a function of time for a driven pendulum with the angular frequency of the driven force being 1000.
 
 * The resonant amplitude is also dependent of the friction parameter q: The larger the friction parameter the smaller the amplitude. This result is shown in Figure_5. <br>
+
 (![For the source code please click here. ](https://github.com/ChenXi19/computational_physics_assignments_2013301020092/blob/master/Assignment_8/OMEGA_D.py))<br>
 ![](https://raw.githubusercontent.com/ChenXi19/computational_physics_assignments_2013301020092/master/Assignment_8/q%20dependence.png)<br>
 Figure_5 ![](http://latex.codecogs.com/gif.latex?%5Ctheta) as a function of time for a driven pendulum where the angular frequency of the driven force is ![](http://latex.codecogs.com/gif.latex?%5COmega_D%3D%5COmega%3D3.13) and the friction parameter q=0.5,5,50.<br>
+
 When the friction is large enough, the pendulum will oscillate but the amplitude will also reduce with time, such case is shown in Figure_6. <br>
+
 (![For the source code please click here.](https://github.com/ChenXi19/computational_physics_assignments_2013301020092/blob/master/Assignment_8/untitled1.py))<br>
 ![](https://raw.githubusercontent.com/ChenXi19/computational_physics_assignments_2013301020092/master/Assignment_8/q100.png)<br>
 Figure_6 ![](http://latex.codecogs.com/gif.latex?%5Ctheta) as a function of time for a driven pendulum with the friction parameter q=100.
+
 
 ### Nonlinearity of the pendulum
 
