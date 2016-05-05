@@ -40,5 +40,11 @@ In this assignment we discuss two problems: One is the motion of the linear forc
   while the subroutine for Euler-Cromer method is:<br>
   ![](http://latex.codecogs.com/gif.latex?%5Cbegin%7Bmatrix%7D%20%5Comega_%7Bi&plus;1%7D%3D%5Comega_%7Bi%7D-%28g/l%29%5Ctheta_i%5CDelta%20t%5C%5C%20%5Ctheta_%7Bi&plus;1%7D%3D%5Ctheta_i&plus;%5Comega_%7Bi&plus;1%7D%5CDelta%20t%5C%5C%20t_%7Bi&plus;1%7D%3Dt_i&plus;%5CDelta%20t%20%5Cend%7Bmatrix%7D)<br>
 
+  As is clear, the only difference between the Euler method and the Euler-Cromer method is the way we calculate the new value of ![](http://latex.codecogs.com/gif.latex?\theta): Euler method uses the previous value of ![](http://latex.codecogs.com/gif.latex?\omega) and ![](http://latex.codecogs.com/gif.latex?\theta) to calculate the new value of ![](http://latex.codecogs.com/gif.latex?\theta) while the Euler-Cromer method uses the previous value of ![](http://latex.codecogs.com/gif.latex?\theta) and the new value of ![](http://latex.codecogs.com/gif.latex?\omega) to calculate the new value of ![](http://latex.codecogs.com/gif.latex?\theta). Indeed, for many problem it makes no significant difference. Yet, for problems involving oscillatory motion the Euler-Cromer method conserves energy over each complete period of the motion. The effectiveness of Euler-Cromer method comparing to the Euler method can be seen below.
   And the results using different methods is:<br>
-  ![](https://raw.githubusercontent.com/ChenXi19/computational_physics_assignments_2013301020092/master/Assignment_8/QQ%E6%88%AA%E5%9B%BE20160504202535.png)
+  ![](https://raw.githubusercontent.com/ChenXi19/computational_physics_assignments_2013301020092/master/Assignment_8/QQ%E6%88%AA%E5%9B%BE20160504202535.png)<br>
+  (![For the source code please click here.](https://github.com/ChenXi19/computational_physics_assignments_2013301020092/blob/master/Assignment_8/untitled0.py)) <br>
+  
+  
+  
+## Results 
