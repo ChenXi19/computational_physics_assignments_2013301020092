@@ -105,7 +105,7 @@ Figure_7 ![](http://latex.codecogs.com/gif.latex?%5Ctheta) as a function of time
 Figure_8 ![](http://latex.codecogs.com/gif.latex?%5Ctheta) as a function of time for a nonlinear pendulum with the initial angular displacement of ![](http://latex.codecogs.com/gif.latex?%5Cfrac%7B%5Cpi%7D%7B2%7D)
 
 ![](https://github.com/ChenXi19/computational_physics_assignments_2013301020092/blob/master/Assignment_8/pi60.png)<br>
-Figure_8 ![](http://latex.codecogs.com/gif.latex?%5Ctheta) as a function of time for a nonlinear pendulum with the initial angular displacement of ![](http://latex.codecogs.com/gif.latex?%5Cfrac%7B%5Cpi%7D%7B60%7D)
+Figure_9 ![](http://latex.codecogs.com/gif.latex?%5Ctheta) as a function of time for a nonlinear pendulum with the initial angular displacement of ![](http://latex.codecogs.com/gif.latex?%5Cfrac%7B%5Cpi%7D%7B60%7D)
 
 
 ## Reference
