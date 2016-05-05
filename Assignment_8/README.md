@@ -22,5 +22,11 @@ In this assignment we discuss two problems: One is the motion of the linear forc
   where ![](http://latex.codecogs.com/gif.latex?%5COmega%3D%5Csqrt%7Bg/l%7D),and ![](http://latex.codecogs.com/gif.latex?%5Ctheta_0%2C%5Cvarphi) depend on the initial conditions- the initial speed and displacement of the pendulum. And in this case, the angular frequency ![](http://latex.codecogs.com/gif.latex?%5COmega%3D%5Csqrt%7Bg/l%7D) is independent of m and the amplitude of the motion. However if we solve for the nonlinear equation, we will find that the angular frequency is influenced by the amplitude of the motion. <br>
 
 * Dissipation<br>
-  To be a bit more realistic, we add friction to this system. In many case the damping force is proportional to the velocity and thus the friction force is of the form
+  To be a bit more realistic, we add friction to this system. In many case the damping force is proportional to the velocity and thus the friction force is of the form ![](http://latex.codecogs.com/gif.latex?-q%28d%5Ctheta/dt%29), where q is the parameter that measures the strength of the damping and the minus sign guarantees that the force will always oppose the motion of the pendulum. <br>
+
+* Driven force 
+  To discuss a more interesting problem, a driven force is added to the system, which is of the form ![](http://latex.codecogs.com/gif.latex?F_Dsin%28%5COmega_Dt%29). The amplitude of the force is ![](http://latex.codecogs.com/gif.latex?F_D) and the angular frequency is ![](http://latex.codecogs.com/gif.latex?\Omega_D). This leads to the equation of motion:<br>
+  ![](http://latex.codecogs.com/gif.latex?%5Cfrac%7Bd%5E2%5Ctheta%7D%7Bdt%5E2%7D%3D-%5Cfrac%7Bg%7D%7Bl%7D%5Ctheta-q%5Cfrac%7Bd%5Ctheta%7D%7Bdt%7D&plus;F_Dsin%28%5COmega_Dt%29)<br>
+
+* Euler-Cromer method 
 
