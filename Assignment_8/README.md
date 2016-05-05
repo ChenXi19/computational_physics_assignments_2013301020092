@@ -24,9 +24,19 @@ In this assignment we discuss two problems: One is the motion of the linear forc
 * Dissipation<br>
   To be a bit more realistic, we add friction to this system. In many case the damping force is proportional to the velocity and thus the friction force is of the form ![](http://latex.codecogs.com/gif.latex?-q%28d%5Ctheta/dt%29), where q is the parameter that measures the strength of the damping and the minus sign guarantees that the force will always oppose the motion of the pendulum. <br>
 
-* Driven force 
+* Driven force<br> 
   To discuss a more interesting problem, a driven force is added to the system, which is of the form ![](http://latex.codecogs.com/gif.latex?F_Dsin%28%5COmega_Dt%29). The amplitude of the force is ![](http://latex.codecogs.com/gif.latex?F_D) and the angular frequency is ![](http://latex.codecogs.com/gif.latex?\Omega_D). This leads to the equation of motion:<br>
   ![](http://latex.codecogs.com/gif.latex?%5Cfrac%7Bd%5E2%5Ctheta%7D%7Bdt%5E2%7D%3D-%5Cfrac%7Bg%7D%7Bl%7D%5Ctheta-q%5Cfrac%7Bd%5Ctheta%7D%7Bdt%7D&plus;F_Dsin%28%5COmega_Dt%29)<br>
 
-* Euler-Cromer method 
+* Euler-Cromer method <br>
+  The Euler method is no longer suitable for the oscillatory problem, while a slight modification will save this method which yields the Euler-Cromer method. We use simple pendulum to illustrate this method, where there is no damping, driven force or nonlinearity. And the equation of motion is:<br>
+  ![](http://latex.codecogs.com/gif.latex?%5Cfrac%7Bd%5E2%5Ctheta%7D%7Bdt%5E2%7D%20%3D-%5Cfrac%7Bg%7D%7Bl%7D%5Ctheta)<br>
+  The exact solution is:<br>
+  ![](http://latex.codecogs.com/gif.latex?%5Ctheta%3D%5Ctheta_0sin%28%5COmega%20t&plus;%5Cvarphi%20%29)<br>
+
+  We can also solve this equation by Euler method and the calculate subroutine is:<br>
+  ![](http://latex.codecogs.com/gif.latex?%5Cbegin%7Bmatrix%7D%20%5Comega_%7Bi&plus;1%7D%3D%5Comega_%7Bi%7D-%28g/l%29%5Ctheta_i%5CDelta%20t%5C%5C%20%5Ctheta_%7Bi&plus;1%7D%3D%5Ctheta_i&plus;%5Comega_%7Bi%7D%5CDelta%20t%5C%5C%20t_%7Bi&plus;1%7D%3Dt_i&plus;%5CDelta%20t%20%5Cend%7Bmatrix%7D)<br>
+  
+  while the subroutine for Euler-Cromer method is:<br>
+  ![](http://latex.codecogs.com/gif.latex?%5Cbegin%7Bmatrix%7D%20%5Comega_%7Bi&plus;1%7D%3D%5Comega_%7Bi%7D-%28g/l%29%5Ctheta_i%5CDelta%20t%5C%5C%20%5Ctheta_%7Bi&plus;1%7D%3D%5Ctheta_i&plus;%5Comega_%7Bi&plus;1%7D%5CDelta%20t%5C%5C%20t_%7Bi&plus;1%7D%3Dt_i&plus;%5CDelta%20t%20%5Cend%7Bmatrix%7D)
 
