@@ -19,7 +19,14 @@ In this assignment we are required to construct the Poincare sections of a drive
   
 * Euler Cromer method<br>
   
-  The Euler Cromer method is also suitable for this problem and our subroutine is as below:
+  The Euler Cromer method is also suitable for this problem. We also adjust the value of ![](http://latex.codecogs.com/gif.latex?%5Ctheta) after each step so as to keep it in the range of ![](http://latex.codecogs.com/gif.latex?%5B%5Cpi%2C-%5Cpi%5D) and our subroutine is as below:
+  
+  
+  For each step i calculate ![](http://latex.codecogs.com/gif.latex?%5Comega) and ![](http://latex.codecogs.com/gif.latex?%5Ctheta)<br>
+  ![](http://latex.codecogs.com/gif.latex?%5Cbegin%7Bmatrix%7D%20%5Comega_%7Bi&plus;1%7D%3D%5Comega_i-%5B%28g/l%29sin%5Ctheta_i-q%5Comega_i&plus;F_Dsin%28%5COmega_Dt_i%29%5D%5CDelta%20t%5C%5C%20%5Ctheta_%7Bi&plus;1%7D%3D%5Ctheta_i%20&plus;%5Comega_%7Bi&plus;1%7D%5CDelta%20t%20%5Cend%7Bmatrix%7D)<br>
+  if ![](http://latex.codecogs.com/gif.latex?%5Ctheta_%7Bi&plus;1%7D) is out of the range ![](http://latex.codecogs.com/gif.latex?%5B%5Cpi%2C-%5Cpi%5D), add or substract ![](http://latex.codecogs.com/gif.latex?2%5Cpi) to keep it in this range.<br>
+  ![](http://latex.codecogs.com/gif.latex?t_%7Bi&plus;1%7D%3Dt_i&plus;%5CDelta%20t)<br>
+  Repeat.
   
 
 
