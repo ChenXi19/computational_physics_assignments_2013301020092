@@ -31,8 +31,9 @@ In this assignment we are required to construct the Poincare sections of a drive
 
 * Chaos<br>
   At first glance a state of chaos is a state that does not repeat itself. In this assignment the pendulum is in a chaos state when the amplitude of the driving force is large enough. The pendulum is in chaos because it does not settle into any sort of repeating steadystate behavior in Figure_1(c). To be more explicit, a state of chaos is a state which can be both deterministic and unpredictable at the same time. This kind of state is very sensetive to the initial conditions and a slight difference in the beginning may have completely different results. And since we cannot know the exact initial conditions practically, such a state is unpredictable although deterministic and thus it is chaos.<br>
-  ![]()
-
+  ![](https://raw.githubusercontent.com/ChenXi19/computational_physics_assignments_2013301020092/master/Assignment_9/F0.png) <br>Figure_1(a)<br>
+  ![](https://raw.githubusercontent.com/ChenXi19/computational_physics_assignments_2013301020092/master/Assignment_9/F0.5.png) <br>Figure_1(b)<br>
+  ![](https://raw.githubusercontent.com/ChenXi19/computational_physics_assignments_2013301020092/master/Assignment_9/F1.2.png) <br>Figure_1(c)<br>
 
 
 
