@@ -82,9 +82,19 @@ In this assignment we are required to construct the Poincare sections of a drive
   ![](https://raw.githubusercontent.com/ChenXi19/computational_physics_assignments_2013301020092/master/Assignment_9/the_omgnojump.png)
 
 
+* Pioncare section of the pendulum<br>
+  ![For source code please click here](https://github.com/ChenXi19/computational_physics_assignments_2013301020092/blob/master/Assignment_9/ps.py)[3]<br>
+
+  ![](https://raw.githubusercontent.com/ChenXi19/computational_physics_assignments_2013301020092/master/Assignment_9/ps.png)<br>
+  
+  
 ## Reference
 [1] ![Chaos theory, Wikipedia](https://en.wikipedia.org/wiki/Chaos_theory)
+
+
 [2] Computational physiss, second edition, Nicholas J. Giordano
+
+[3]This source is from my classmate ![JunyiShangguan](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex9_ch3.12/ex9.2.py)
 
 
 
