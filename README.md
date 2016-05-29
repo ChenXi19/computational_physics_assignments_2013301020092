@@ -31,3 +31,6 @@ EXERCISE2.19. Model the effect of backspin on the range of a batted ball. Assume
 
 ## [Assignment_8](https://github.com/ChenXi19/computational_physics_assignments_2013301020092/blob/master/Assignment_8/README.md)
 EXERCISE3.7 and EXERCISE3.8 are discussed in this assignment.
+
+##[Assignment_9](https://github.com/ChenXi19/computational_physics_assignments_2013301020092/blob/master/Assignment_9/README.md)
+In this assignment, we chaos is discussed in phase space.
