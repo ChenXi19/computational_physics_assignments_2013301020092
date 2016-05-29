@@ -30,16 +30,28 @@ In this assignment we are required to construct the Poincare sections of a drive
   
 
 * Chaos<br>
-  At first glance a state of chaos is a state that does not repeat itself. In this assignment the pendulum is in a chaos state when the amplitude of the driving force is large enough. The pendulum is in chaos because it does not settle into any sort of repeating steadystate behavior in Figure_1(c). To be more explicit, a state of chaos is a state which can be both deterministic and unpredictable at the same time. This kind of state is very sensetive to the initial conditions and a slight difference in the beginning may have completely different results. And since we cannot know the exact initial conditions practically, such a state is unpredictable although deterministic and thus it is chaos.<br>
+  In common usage, "chaos" means "a state of disorder". However, in chaos theory, the term is defined more precisely. Although no universally accepted mathematical definition of chaos exists, a commonly used definition originally formulated by Robert L. Devaney says that, for a dynamical system to be classified as chaotic, it must have these properties:
+  1. it must be sensitive to initial conditions
+  2. it must be topologically mixing
+  3. it must have dense periodic orbits
+  In some cases, the last two properties in the above have been shown to actually imply sensitivity to initial conditions. In these cases, while it is often the most practically significant property, "sensitivity to initial conditions" need not be stated in the definition.
+  If attention is restricted to intervals, the second property implies the other two.An alternative, and in general weaker, definition of chaos uses only the first two properties in the above list.[1]
+  In this assignment the pendulum is in a chaos state when the amplitude of the driving force is large enough, because it does not settle into any sort of repeating steadystate behavior as in Figure_1(c). To be more explicit, this kind of state is very sensetive to the initial conditions and a slight difference in the beginning may have completely different results. And since we cannot know the exact initial conditions practically, such a state is unpredictable although deterministic and thus it is chaos.<br>
 
 
-  ![](https://raw.githubusercontent.com/ChenXi19/computational_physics_assignments_2013301020092/master/Assignment_9/F0.png) <br>Figure_1(a)<br>
+## Results
+### The Driven Pendulum
+Taking the driving force, damping and the nonlinearity into consideration, the motion of the pendulum becomes more interesting and below are some of the plots of its movement under different conditions:<br>
+![](https://raw.githubusercontent.com/ChenXi19/computational_physics_assignments_2013301020092/master/Assignment_9/F0.png) <br>Figure_1(a)<br>
+In this plot, F_D=0 and without a driving force, the motion is dapmed and come to a rest after a few oscillations. This damped oscillations have a frequency close to the natural frequency of undamped ocsillation. The plot shows some similarities with plots of the simple harmonic pendulum and its damped cousin but is not exactly the same because of the nonlinearity.<br>
 
 
-  ![](https://raw.githubusercontent.com/ChenXi19/computational_physics_assignments_2013301020092/master/Assignment_9/F0.5.png) <br>Figure_1(b)<br>
+![](https://raw.githubusercontent.com/ChenXi19/computational_physics_assignments_2013301020092/master/Assignment_9/F0.5.png) <br>Figure_1(b)<br>
+In this plot, F_D=0.5 and with a small driven force, there are two regimes. The first few oscillations are affected by the decay of an initial transient as in the case of no driving force. After the transient is damped away, the pendulum settles into a steady oscillation in response to the driving force.<br>
   
   
-  ![](https://raw.githubusercontent.com/ChenXi19/computational_physics_assignments_2013301020092/master/Assignment_9/F1.2.png) <br>Figure_1(c)<br>
+![](https://raw.githubusercontent.com/ChenXi19/computational_physics_assignments_2013301020092/master/Assignment_9/F1.2.png) <br>Figure_1(c)<br>
+In this plot 
   
   In Figure_1(a) and FIgure_1(b), the motion of the pendulum is still simple, yet when F=1.2 its behaviour changes so radically and the pendulum does not settle into any sort of the steady-state behavior. And this is an example of chaos.
 
