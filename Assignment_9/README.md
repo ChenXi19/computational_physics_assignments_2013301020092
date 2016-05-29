@@ -42,7 +42,7 @@ In this assignment we are required to construct the Poincare sections of a drive
 ## Results
 ### The Driven Pendulum
 * The oscillation plots under different conditions<br>
-  ![For source code please click here]()
+  ![For source code please click here](https://github.com/ChenXi19/computational_physics_assignments_2013301020092/blob/master/Assignment_9/chaos.py)
   Taking the driving force, damping and the nonlinearity into consideration, the motion of the pendulum becomes more interesting and below are some of the plots of its movement under different conditions:<br>
   ![](https://raw.githubusercontent.com/ChenXi19/computational_physics_assignments_2013301020092/master/Assignment_9/F0.png) <br>Figure_1(a)<br>
   In this plot, F_D=0 and without a driving force, the motion is dapmed and come to a rest after a few oscillations. This damped oscillations have a frequency close to the natural frequency of undamped ocsillation. The plot shows some similarities with plots of the simple harmonic pendulum and its damped cousin but is not exactly the same because of the nonlinearity.<br>
@@ -57,12 +57,12 @@ In this assignment we are required to construct the Poincare sections of a drive
   In those two plots F_D=1.2 and the motion is no longer simple even at long times. The vertical jumps in the above plot are due to our resetting the angle to keep it with the range ![](http://latex.codecogs.com/gif.latex?%5B%5Cpi%2C-%5Cpi%5D) and thus corresponding to the pendulum swinging over the top. Below the first plot is the plot without this resseting of the angle and the oscillation of the pendulum still does not seem to settle into any sort of steady motion. The pendulum is in chaos.<br>
   
 * The angular velocity of the pendulum<br>
-  ![For source code please click here]()
+  ![For source code please click here](https://github.com/ChenXi19/computational_physics_assignments_2013301020092/blob/master/Assignment_9/chaos.py)
   When the driven force is large enough, as in this case F_D=1.2, the plot of angular velocity with respect to time also shows a lot of irregularity and chaos.
   ![](https://raw.githubusercontent.com/ChenXi19/computational_physics_assignments_2013301020092/master/Assignment_9/omega.png) <br>Figure_2<br> 
 
 * Sensivity to the initial conditions
-  ![For source code please click here]()
+  ![For source code please click here](https://github.com/ChenXi19/computational_physics_assignments_2013301020092/blob/master/Assignment_9/initial.py)
   A chaos state is very sensitive to its initial condition. Such sensivity of the driven nonlinear pendulum with F_D=1.2 is shown as below.
   ![](https://raw.githubusercontent.com/ChenXi19/computational_physics_assignments_2013301020092/master/Assignment_9/inisep.png)<br>Figure_3<br>
   As is obvious in the picture above the two pendulums only vary slight from each other at the beginning with the red line representing ![](http://latex.codecogs.com/gif.latex?%5Ctheta_0%3D0.3) and the black line ![](http://latex.codecogs.com/gif.latex?%5Ctheta_0%3D0.2). After a short period of time the motions of the two pendulum become compeletly different from each other. And the difference between their angles is also irregular and unpredicable as is show below. <br>
@@ -71,7 +71,7 @@ In this assignment we are required to construct the Poincare sections of a drive
   Figure_4 Results for ![](http://latex.codecogs.com/gif.latex?%5CDelta%20%5Ctheta) from our two identical pendulums.<br>
 
 * Oscillation in phase space 
-  ![For source code please click here]()
+  ![For source code please click here](https://github.com/ChenXi19/computational_physics_assignments_2013301020092/blob/master/Assignment_9/chaos.py)
   A good method to deal with this is to plot the oscillation in the phase space, that is to plot ![](http://latex.codecogs.com/gif.latex?%5Comega) as a function of ![](http://latex.codecogs.com/gif.latex?%5Ctheta).
 
   ![](https://raw.githubusercontent.com/ChenXi19/computational_physics_assignments_2013301020092/master/Assignment_9/the_omg0.5.png)<br>Figure_5(a)<br>
