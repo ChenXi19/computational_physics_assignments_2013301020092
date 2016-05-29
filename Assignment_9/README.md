@@ -70,8 +70,12 @@ In this assignment we are required to construct the Poincare sections of a drive
 * Oscillation in phase space 
   A good method to deal with this is to plot the oscillation in the phase space, that is to plot ![](http://latex.codecogs.com/gif.latex?%5Comega) as a function of ![](http://latex.codecogs.com/gif.latex?%5Ctheta).
 
-  ![]()
-
+  ![](https://raw.githubusercontent.com/ChenXi19/computational_physics_assignments_2013301020092/master/Assignment_9/the_omg0.5.png)<br>Figure_5(a)<br>
+  Above is the plot with a small driving force F_D=0.5. With a small driving force, at first there is a small transient that depends on the initial conditions(in this case ![](http://latex.codecogs.com/gif.latex?%5Ctheta_0%3D0.2%2C%5Comega_0%3D0)), but the pendulum soon fall into a regular orbit in the phase space and it can be shown that this orbit is independt of the initial condition.
+  
+  ![](https://raw.githubusercontent.com/ChenXi19/computational_physics_assignments_2013301020092/master/Assignment_9/the_omg.png)<br> Figure_5(b)<br>
+  This is the phase-space trajectory of the chaotic state (in this case that is F_D=1.2). While the pattern is certainly not a simple one, it is not completely random, for example it cannot reach the four corners of the figure. Those horizontal lines are due to our resetting the angle to keep it with the range ![](http://latex.codecogs.com/gif.latex?%5B%5Cpi%2C-%5Cpi%5D) and thus corresponding to the pendulum swinging over the top. And below is a plot without resetting, which is also not completely random.<br>
+  ![](https://raw.githubusercontent.com/ChenXi19/computational_physics_assignments_2013301020092/master/Assignment_9/the_omgnojump.png)
 
 
 
