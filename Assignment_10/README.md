@@ -41,3 +41,78 @@ In this assignment, a brief introduction of the Lorenz system will be given. Als
 
   For other values of b , the system displays knotted periodic orbits. For example, with b = 99.96  it becomes a T(3,2) torus knot.
 
+## Results
+
+* Variations of the Lorenz variable z as a function of time with different b <br>
+  For small values of ρ, the system is stable and evolves to one of two fixed point attractors. When ρ is larger than 24.74, the fixed points become repulsors and the trajectory is repelled by them in a very complex way. <br>
+  When b = 5, there is an initial transient, and after it decays away z is a constent, independent of time t.<br>
+
+  ![]()<br>
+  Figure_2 Variations of the Lorenz variable z as a function of time with b = 5. The calculation was performd using the Euler method with a time step of 0.0001. The initial conditions were x = 1, y = 0, z = 0.
+
+  The same behavior is seen when b = 10, although it takes a little bit longer to wear away.
+
+  ![]()<br>
+  Figure_3 Variations of the Lorenz variable z as a function of time with b = 10. The calculation was performd using the Euler method with a time step of 0.0001. The initial conditions were x = 1, y = 0, z = 0.
+
+  These two cases correspond to steady convective motion in the originel fluid; in this process the warm fluid produced at the bottom surface of the container rises and the cooler fluid returens from the top. 
+
+  ![]()<br>
+  Figure_4 Variations of the Lorenz variable z as a function of time with b = 25. The calculation was performd using the Euler method with a time step of 0.0001. The initial conditions were x = 1, y = 0, z = 0.
+  
+  
+* Variations of the Lorenz variables x, y, z as a function of time at b = 25
+
+![]()<br>
+Figure_5 Variations of the Lorenz variable x as a function of time with b = 25. The calculation was performd using the Euler method with a time step of 0.0001. The initial conditions were x = 1, y = 0, z = 0.
+
+![]()<br>
+Figure_6 Variations of the Lorenz variable y as a function of time with b = 25. The calculation was performd using the Euler method with a time step of 0.0001. The initial conditions were x = 1, y = 0, z = 0.
+
+![]()<br>
+Figure_7 Variations of the Lorenz variable z as a function of time with b = 25. The calculation was performd using the Euler method with a time step of 0.0001. The initial conditions were x = 1, y = 0, z = 0.
+  
+* Trajectories of the Lorenz model projected onto the x-z plane, with different b.
+  ![]()<br>
+  Figure_7 Trajectory of the Lorenz model projected onto the x-z plane with b = 5. The calculation was performd using the Euler method with a time step of 0.0001. The initial conditions were x = 1, y = 0, z = 0.
+
+  ![]()<br>
+  Figure_8 Trajectory of the Lorenz model projected onto the x-z plane with b = 10. The calculation was performd using the Euler method with a time step of 0.0001. The initial conditions were x = 1, y = 0, z = 0.
+  
+  ![]()<br>
+  Figure_9 Trajectory of the Lorenz model projected onto the x-z plane with b = 25. The calculation was performd using the Euler method with a time step of 0.0001. The initial conditions were x = 1, y = 0, z = 0.
+  
+* Trajectories of the Lorenz model projected onto the x-z, y-z, x-y planes at b = 25
+
+  ![]()<br>
+  Figure_10 Trajectory of the Lorenz model projected onto the x-y plane with b = 25. The calculation was performd using the Euler method with a time step of 0.0001. The initial conditions were x = 1, y = 0, z = 0.
+  
+  ![]()<br>
+  Figure_11 Trajectory of the Lorenz model projected onto the y-z plane with b = 25. The calculation was performd using the Euler method with a time step of 0.0001. The initial conditions were x = 1, y = 0, z = 0.
+  
+  ![]()<br>
+  Figure_12 Trajectory of the Lorenz model projected onto the x-z plane with b = 25. The calculation was performd using the Euler method with a time step of 0.0001. The initial conditions were x = 1, y = 0, z = 0.
+  
+  
+* 3D Phase space plots for Lorenz model with different b
+
+  ![]()<br>
+  Figure_13 3D Phase space plots for Lorenz model with b = 5. The calculation was performd using the Euler method with a time step of 0.01. The initial conditions were x = 1, y = 0, z = 0.
+  
+  ![]()<br>
+  Figure_14 3D Phase space plots for Lorenz model with b = 10. The calculation was performd using the Euler method with a time step of 0.01. The initial conditions were x = 1, y = 0, z = 0.
+  
+  ![]()<br>
+  Figure_15 3D Phase space plots for Lorenz model with b = 25. The calculation was performd using the Euler method with a time step of 0.01. The initial conditions were x = 1, y = 0, z = 0.
+  
+* Phase space plots for the Lorenz model in different planes
+
+  ![]()<br>
+  Figure_16 Phase-space plot for the Lorenz model with r = 25. Phase space plot: z versus y when x=0. The calculation was performd using the Euler method with a time step of 0.01. The initial conditions were x = 1, y = 0, z = 0.
+  
+  ![]()<br>
+  Figure_17 Phase-space plot for the Lorenz model with r = 25. Phase space plot: z versus x when y=0. The calculation was performd using the Euler method with a time step of 0.01. The initial conditions were x = 1, y = 0, z = 0.
+  
+  ![]()<br>
+  Figure_14 Phase-space plot for the Lorenz model with r = 25. Phase space plot: y versus x when z=0. The calculation was performd using the Euler method with a time step of 0.01. The initial conditions were x = 1, y = 0, z = 0.
+
