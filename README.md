@@ -34,3 +34,6 @@ EXERCISE3.7 and EXERCISE3.8 are discussed in this assignment.
 
 ##[Assignment_9](https://github.com/ChenXi19/computational_physics_assignments_2013301020092/blob/master/Assignment_9/README.md)
 In this assignment, we chaos is discussed in phase space.
+
+##[Assignment_10](https://github.com/ChenXi19/computational_physics_assignments_2013301020092/blob/master/Assignment_10/README.md)
+The lorenz model and problem3.26
