@@ -122,3 +122,13 @@ In this assignment, a brief introduction of the Lorenz system will be given. Als
   ![](https://raw.githubusercontent.com/ChenXi19/computational_physics_assignments_2013301020092/master/Assignment_10/xy_sec.png)<br>
   Figure_16 Phase-space plot for the Lorenz model with r = 25. Phase space plot: y versus x when z=30. The calculation was performd using the Euler method with a time step of 0.01. The initial conditions were x = 1, y = 0, z = 0.
 
+For source code please click below:<br>
+
+1. ![Source code for trajectory and Lorenz variables versus time ](https://raw.githubusercontent.com/ChenXi19/computational_physics_assignments_2013301020092/master/Assignment_10/L.py)
+2. ![Source code for 3D image and phase-space plot ](https://raw.githubusercontent.com/ChenXi19/computational_physics_assignments_2013301020092/master/Assignment_10/L.py)
+
+
+## Reference
+[1] ![The Lorenz system on wiki](https://en.wikipedia.org/wiki/Lorenz_system)
+
+[2] source code on 3D image is from Qiang Yihua.
