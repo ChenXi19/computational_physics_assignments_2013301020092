@@ -71,6 +71,15 @@ In this assignment, the different motions of two planets as a binary system will
   
   ![](https://raw.githubusercontent.com/ChenXi19/computational_physics_assignments_2013301020092/master/Assignment_11/10.png)<br>Figure3.4 The motion of a binary system with a mass ratio being 10.
   
+  ![](https://raw.githubusercontent.com/ChenXi19/computational_physics_assignments_2013301020092/master/Assignment_11/1042.png)<br>Figure3.5 The motion of a binary system with a mass ratio being 1042.
+  
+  Colusion:
+  
+  (1) When the mass ratio gets larger and larger, the orbits of the planet with a larger mass becomes smaller and smaller. 
+  
+  (2) When the mass of one planet is far larger than the other planet, the heavier planet can be treated as still with the lighter planet orbiting around. And hence when analysing the motion of the Earth, we can treat the sun as still with Earth orbiting around the sun.
+  
+  
   ![For Source Code Please Click](https://github.com/ChenXi19/computational_physics_assignments_2013301020092/blob/master/Assignment_11/111.py)
 * Orbits of Earth Under Different Initial Velocity
   
@@ -80,6 +89,7 @@ In this assignment, the different motions of two planets as a binary system will
   
   ![](https://raw.githubusercontent.com/ChenXi19/computational_physics_assignments_2013301020092/master/Assignment_11/v3.png)<br> Figure4.3 The orbit of Earth with initial velocity being 3.
   
+  From the above figures, we can conclude that the shape of the orbit of Earth is dependent of its initial velocity.
   
   ![For Source Code Please Click](https://github.com/ChenXi19/computational_physics_assignments_2013301020092/blob/master/Assignment_11/112.py)
   
