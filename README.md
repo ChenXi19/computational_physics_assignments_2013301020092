@@ -42,3 +42,5 @@ The lorenz model and problem3.26
 
 ## [Assignment_12](https://github.com/ChenXi19/computational_physics_assignments_2013301020092/blob/master/Assignment_12/README.md)
 Hyperion problem 4.20
+
+## [Assignment_13](https://github.com/ChenXi19/computational_physics_assignments_2013301020092/blob/master/Assignment_13/README.md)
