@@ -60,3 +60,34 @@ In this assignment, the different motions of two planets as a binary system will
   Figure_2 Pluto and its moon Charon are often described as a binary system.
   
 ## Results
+
+* Motions of Binary System With Different Mass Ratio
+  
+  ![](https://raw.githubusercontent.com/ChenXi19/computational_physics_assignments_2013301020092/master/Assignment_11/1.png)<br>Figure3.1 The motion of a binary system with a mass ratio being 1.
+
+  ![](https://raw.githubusercontent.com/ChenXi19/computational_physics_assignments_2013301020092/master/Assignment_11/2.png)<br>Figure3.2 The motion of a binary system with a mass ratio being 2.
+  
+  ![](https://raw.githubusercontent.com/ChenXi19/computational_physics_assignments_2013301020092/master/Assignment_11/3.png)<br>Figure3.3 The motion of a binary system with a mass ratio being 3.
+  
+  ![](https://raw.githubusercontent.com/ChenXi19/computational_physics_assignments_2013301020092/master/Assignment_11/10.png)<br>Figure3.4 The motion of a binary system with a mass ratio being 10.
+  
+  ![For Source Code Please Click](https://github.com/ChenXi19/computational_physics_assignments_2013301020092/blob/master/Assignment_11/111.py)
+* Orbits of Earth Under Different Initial Velocity
+  
+  ![](https://raw.githubusercontent.com/ChenXi19/computational_physics_assignments_2013301020092/master/Assignment_11/v1.png)<br> Figure4.1 The orbit of Earth with initial velocity being 1.
+
+  ![](https://raw.githubusercontent.com/ChenXi19/computational_physics_assignments_2013301020092/master/Assignment_11/v2.png)<br> Figure4.2 The orbit of Earth with initial velocity being 2.
+  
+  ![](https://raw.githubusercontent.com/ChenXi19/computational_physics_assignments_2013301020092/master/Assignment_11/v3.png)<br> Figure4.3 The orbit of Earth with initial velocity being 3.
+  
+  
+  ![For Source Code Please Click](https://github.com/ChenXi19/computational_physics_assignments_2013301020092/blob/master/Assignment_11/112.py)
+  
+  
+## Reference
+
+[1]![Kepler's laws of planetary motion on Wikipedia](https://github.com/ChenXi19/computational_physics_assignments_2013301020092/tree/master/Assignment_12) 
+
+[2]![Binary system on Wilipedia](https://en.wikipedia.org/wiki/Binary_system)
+
+[3]Source code is from Liu Wentao.
