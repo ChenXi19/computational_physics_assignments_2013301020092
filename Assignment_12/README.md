@@ -38,4 +38,37 @@ In this assignment, the motion of Hyperion will be discussed according to the in
   
   ![](http://latex.codecogs.com/gif.latex?%5Cfrac%7Bd%5Cvec%7B%7D%5Comega%7D%7Bdt%7D%3D%5Cfrac%7B%5Cvec%7Br_1%7D&plus;%5Cvec%7Br_2%7D%7D%7BI%7D)
   
-  where ![](http://latex.codecogs.com/gif.latex?I%3Dm_1r_1%5E2&plus;m_2r_2%5E2)
+  where ![](http://latex.codecogs.com/gif.latex?I%3Dm_1r_1%5E2&plus;m_2r_2%5E2) is the moment of inertia. putting this all together yelds, after some algebra,
+  
+  ![](http://latex.codecogs.com/gif.latex?%5Cfrac%7Bd%5Comega%7D%7Bdt%7D%3D-%5Cfrac%7B3GM_%7Bsat%7D%7D%7Br_c%5E5%7D%28x_csin%5Ctheta-y_ccos%5Ctheta%29%28x_ccos%5Ctheta&plus;y_csin%5Ctheta%29)
+  
+  where rc is the distance from the center of mass to Saturn.
+  
+## Result:
+  
+ * Circular Orbit:
+  
+  ![](https://raw.githubusercontent.com/ChenXi19/computational_physics_assignments_2013301020092/master/Assignment_12/figure_circal_COM.png)
+
+  ![](https://raw.githubusercontent.com/ChenXi19/computational_physics_assignments_2013301020092/master/Assignment_12/figure_circal_m1m2.png)
+  
+  ![](https://raw.githubusercontent.com/ChenXi19/computational_physics_assignments_2013301020092/master/Assignment_12/figure_circal_theta.png)
+  
+  ![](https://raw.githubusercontent.com/ChenXi19/computational_physics_assignments_2013301020092/master/Assignment_12/figure_circal_omega.png)
+  
+  ![](https://raw.githubusercontent.com/ChenXi19/computational_physics_assignments_2013301020092/master/Assignment_12/figure_circal_dtheta.png)
+  
+  
+* Elliptical orbit
+  ![](https://raw.githubusercontent.com/ChenXi19/computational_physics_assignments_2013301020092/master/Assignment_12/figure_eliptical_COM.png)
+
+  ![](https://raw.githubusercontent.com/ChenXi19/computational_physics_assignments_2013301020092/master/Assignment_12/figure_eliptical_m1m2.png)
+  
+  ![](https://raw.githubusercontent.com/ChenXi19/computational_physics_assignments_2013301020092/master/Assignment_12/figure_eliptical_theta.png)
+  
+  ![](https://raw.githubusercontent.com/ChenXi19/computational_physics_assignments_2013301020092/master/Assignment_12/figure_eliptical_omega.png)
+  
+  ![](https://raw.githubusercontent.com/ChenXi19/computational_physics_assignments_2013301020092/master/Assignment_12/figure_eliptical_dtheta.png)
+
+  
+
