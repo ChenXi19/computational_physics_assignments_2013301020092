@@ -38,5 +38,7 @@ In this assignment, we chaos is discussed in phase space.
 ##[Assignment_10](https://github.com/ChenXi19/computational_physics_assignments_2013301020092/blob/master/Assignment_10/README.md)
 The lorenz model and problem3.26
 
+##[Assignment_11](https://github.com/ChenXi19/computational_physics_assignments_2013301020092/blob/master/Assignment_11/README.md)
+
 ## [Assignment_12](https://github.com/ChenXi19/computational_physics_assignments_2013301020092/blob/master/Assignment_12/README.md)
 Hyperion problem 4.20
