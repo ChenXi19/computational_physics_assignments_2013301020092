@@ -62,14 +62,15 @@ In this assignment, the motion of Hyperion will be discussed according to the in
   
   ![](https://raw.githubusercontent.com/ChenXi19/computational_physics_assignments_2013301020092/master/Assignment_12/figure_circal_omega.png)
   
-  Figure2.3: The pot of ![](http://latex.codecogs.com/gif.latex?%5Comega) of the Hyperion as a function of time t, when assuming the circular orbit, which is not chaotic. 
+  Figure1.4: The pot of ![](http://latex.codecogs.com/gif.latex?%5Comega) of the Hyperion as a function of time t, when assuming the circular orbit, which is not chaotic. 
   
   ![](https://raw.githubusercontent.com/ChenXi19/computational_physics_assignments_2013301020092/master/Assignment_12/figure_circal_dtheta.png)
   
-  Figure1.3: The pot of ![](http://latex.codecogs.com/gif.latex?%5Cdtheta) of the Hyperion as a function of time t, when assuming the circular orbit, which is not chaotic. 
+  Figure1.5: The pot of ![](http://latex.codecogs.com/gif.latex?%5Cdtheta) of the Hyperion as a function of time t, when assuming the circular orbit, which is not chaotic. 
   
   
 * Elliptical orbit
+
   ![](https://raw.githubusercontent.com/ChenXi19/computational_physics_assignments_2013301020092/master/Assignment_12/figure_eliptical_COM.png)
 
   Figure2.1: The motion of the center of mass in x-y pland
